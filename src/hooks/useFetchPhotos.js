@@ -14,7 +14,7 @@ const useFetchPhotos = () => {
 
         // Single GET request on page load — no re-fetching on search/filter.
         const response = await axios.get(
-          "https://picsuum.photos/v2/list?limit=30",
+          "https://picsum.photos/v2/list?limit=30",
         );
         setPhotos(response.data);
       } catch {
