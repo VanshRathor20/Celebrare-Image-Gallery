@@ -1,4 +1,4 @@
-import Gallery from "./Components/Gallery";
+import Gallery from "./components/Gallery";
 
 const App = () => {
   return <Gallery />;
